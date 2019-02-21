@@ -1,0 +1,136 @@
+.menu{
+	display: none;
+}
+
+.menu-toggle img{
+	width: 30px;
+	position: fixed;
+	right: 20px;
+	top: 27px;
+
+}
+
+
+.menu-checkbox:checked ~ .menu {
+	display: block;
+
+}
+
+.menu-checkbox{
+	opacity: 0;
+	position: absolute;
+	top: -5000px;
+	display: none;
+}
+
+.menu-checkbox:focus + .menu-toggle {
+	outline: #00A1A1 auto 5px;
+}
+
+#minimenu ul{
+	z-index: 10;
+	top: 50px;
+	right: 20px;
+	position: fixed;
+	font-size: 1.2em;
+	margin-top: 70px;
+	position: fixed;
+	text-align: right;
+	text-transform: uppercase;
+	list-style-type: none !important;
+	color: rgba(255, 255, 255, 0);
+;
+
+
+}
+
+#minimenu ul li{
+	margin-bottom: 60px;
+
+}
+
+
+
+
+nav a{
+	color: #fff;
+	background-color: #174180;
+	border-radius: 60px;
+	padding: 20px 40px 20px 40px;
+	text-decoration: none;
+	box-shadow: 1px 1px 20px black;
+
+
+}
+
+nav a:hover{
+	color: white;
+	background-color: black;
+	border-radius: 60px;
+	padding: 20px 40px 20px 40px;
+	box-shadow: 1px 1px 20px black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+	#minimenu ul li{
+	margin-bottom: 30px;
+}
+
+
+
+
+#minimenu ul{
+	font-size: 0.8em;
+	margin-top: 0px;
+	text-align: right;
+	margin-top: 30px;
+	right: 10px;
+	
+}
+
+.menu-toggle img{
+	width: 25px;
+	right: 20px;
+	top: 23px;
+
+}
+
+nav a{
+
+	padding: 10px 30px 10px 30px;
+
+
+
+}
+
+nav a:hover{
+
+	padding: 10px 30px 10px 30px;
+
+
+}
+

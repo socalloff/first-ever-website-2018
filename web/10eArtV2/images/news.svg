@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 217 314">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        font-size: 53px;
+        font-family: Oswald-Regular, Oswald;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Groupe_1" data-name="Groupe 1" transform="translate(-228 616)">
+    <g id="Rectangle_1" data-name="Rectangle 1" class="cls-1" transform="translate(228 -616)">
+      <rect class="cls-3" width="217" height="314"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="216" height="313"/>
+    </g>
+    <text id="NEWS" class="cls-2" transform="translate(248 -616)"><tspan x="0" y="63">NEWS</tspan></text>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="163" height="19" transform="translate(251 -540)"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="82" height="74" transform="translate(251 -455)"/>
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="163" height="8" transform="translate(251 -476)"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="163" height="8" transform="translate(251 -327)"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="73" height="8" transform="translate(341 -423)"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="73" height="8" transform="translate(341 -375)"/>
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="163" height="8" transform="translate(251 -492)"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" width="163" height="8" transform="translate(251 -343)"/>
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="73" height="8" transform="translate(341 -439)"/>
+    <rect id="Rectangle_11" data-name="Rectangle 11" width="73" height="8" transform="translate(341 -391)"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="163" height="8" transform="translate(251 -508)"/>
+    <rect id="Rectangle_15" data-name="Rectangle 15" width="163" height="8" transform="translate(251 -359)"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="73" height="8" transform="translate(341 -455)"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="73" height="8" transform="translate(341 -407)"/>
+  </g>
+</svg>

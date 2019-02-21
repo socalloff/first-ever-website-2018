@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Gillian Sokoloff - BIENVENUE</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="navigation.css">
+</head>
+
+
+<body>
+
+<header>
+
+<div id="titre-section">
+		<a href="index.html"><img src="images/symbolsCV.png" alt="LogoCV"></a>
+</div>
+
+<h2>BIENVENUE</h2> 
+
+<div id="menulogo">
+
+</div>
+
+</header>
+
+
+
+<div id="corps">
+
+	<nav id="minimenu">
+
+	<input id="menu-checkbox" type="checkbox" class="menu-checkbox" />
+
+	<label for="menu-checkbox" class="menu-toggle"><img src="images/menu.svg" alt="menu-img"></label>
+
+	<ul class="menu">
+		<li id="graph"> <a href="designgraphique.html">Design Graphique</a></li>
+		<li id="gd"> <a href="gameleveldesign.html">Game & Level Design</a></li>
+		<li id="web"> <a href="web.html">Développement Web</a></li>
+		<li id="ill"> <a href="illustration.html">Illustration</a></li>
+		<li id="vid"> <a href="video.html">video</a></li>
+		<li id="apro"> <a href="apropos.html">A Propos</a></li>
+
+	</ul>
+</nav>
+
+
+	<aside id="pres">
+		<h3>Designer, développeur web</h3>
+		<p>En phase de réorientation professionnelle depuis octobre 2018, je suis à la recherche d’une entreprise qui m’engagerait (disponible de suite) en tant que développeur web. Avec mes acquis en design je souhaiterai me perfectionner dans des domaines tels que le HTML5, le CSS3, le java, le javascript, le php, etc. De la conception du site à sa mise en ligne, jusqu’à sa maintenance, tout cela dans l’optique de démarrer une carrière de développeur web "full stack".</p>
+
+		<p>J'ai créé ce site dans le but de montrer mes capacités en développement web, mais j'en profite pour montrer un peu qui je suis à travers ce site. J'ai pris beaucoup de temps et de plaisir à le créer. Si vous avez des questions, n'hésitez pas à me contacter.</p>
+		<p>Bonne visite, </p>
+
+		<p>Gillian Sokoloff </p>
+	</aside>
+
+
+</div>
+
+
+<footer>
+			<p>Gillian Sokoloff, Copyright &copy; 2018 <a href="mailto:gillian.sokoloff@gmail.com">Contact</a></p>	
+</footer>
+
+
+
+
+
+
+
+    <script>
+    
+    (function() {
+        var menu = document.querySelector('ul'), 
+            menulink = document.querySelector('img');
+
+        menulink.addEventListener('click', function(e) {
+            menu.classList.toggle('active');
+            e.preventDefault();
+        });
+    })();
+    
+    </script>
+</body>
+
+
+
+</html>

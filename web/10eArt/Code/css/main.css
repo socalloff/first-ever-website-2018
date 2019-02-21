@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,700');
+
+body, html {
+    height: calc(100% - 2em);
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+body{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d50000+0,6b0000+100 */
+background: #d50000; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #d50000 0%, #6b0000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #d50000 0%,#6b0000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #d50000 0%,#6b0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d50000', endColorstr='#6b0000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+
+aside {
+    color: #fff;
+    display: grid;
+    grid-template-columns: auto 40px;
+    padding : 2em;
+}
+
+img {
+    width: 45px;
+    cursor: pointer;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+nav {
+    background: #fff;
+}
+
+.active {
+    position: absolute;
+    display: block;
+    background: #676767;
+    width: 50%;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+ul {
+    display: none;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    display: block;
+    padding : 2em 2em;
+    background-color: rgba(119, 104, 104, 100);
+    color: #fff;
+    
+}
+
+main {
+    background-color: #fff;
+    padding : 1em 1.4em;
+}
+
+h1 { 
+    background: url('../images/logo10eArt-04.svg') no-repeat top left;
+    padding: 3em 0;
+    margin:0;
+    
+}
+
+h2 {
+    white-space: pre;
+    font-size: 1.5em;
+    font-weight: lighter;
+    
+}
+
+p {
+    white-space: pre;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+
+.cta {
+    display: block;
+    color: #fff;
+    background-color: #FF0000;
+    text-decoration: none;
+    padding: 8px 40px;
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 2em 3em;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    body {
+        display : grid;
+        grid-template-columns: 20% auto;
+        padding : 2em;
+    }
+
+    img {
+        display: none;
+    }
+
+    aside {
+        background: #676767;
+        grid-template-columns: auto;
+        grid-template-rows: 25% auto;
+        padding: 0;
+    }
+
+    main{
+        padding: 4em;
+        background: #fff url('../images/logo10eArt-06.svg') no-repeat top right;
+          
+        
+    }
+
+    #avatar {
+        border-radius: 50%;
+        background: #fff;
+        width: 80px;
+        height: 80px;
+        margin: 2em auto 1em auto;
+
+    }
+
+    figcaption {
+        text-align: center;
+    }
+
+    ul {
+        display: block;
+        margin-top: 0;
+        position: relative !important;
+        background: none !important;
+        width: 100% !important;
+    }
+
+    ul li a:hover {
+        background-color: #A19C9C;
+    }
+
+    .cta {
+        display: inline-block;
+        font-size: 1.3em;
+        padding: .8em 2em;
+    }
+
+    nav {
+        background: none;
+    }
+
+
+    h2 {
+        font-size: 2.5em;
+        
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+}

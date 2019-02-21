@@ -1,0 +1,555 @@
+@font-face {
+    font-family: 'abelregular';
+    src: url('fonts/abel-regular-webfont.eot');
+    src: url('fonts/abel-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/abel-regular-webfont.woff2') format('woff2'),
+         url('fonts/abel-regular-webfont.woff') format('woff'),
+         url('fonts/abel-regular-webfont.ttf') format('truetype'),
+         url('fonts/abel-regular-webfont.svg#abelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebasregular';
+    src: url('fonts/BEBAS___-webfont.eot');
+    src: url('fonts/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BEBAS___-webfont.woff2') format('woff2'),
+         url('fonts/BEBAS___-webfont.woff') format('woff'),
+         url('fonts/BEBAS___-webfont.ttf') format('truetype'),
+         url('fonts/BEBAS___-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body, html {
+    margin: 0;
+}
+
+
+
+header{
+	width: 100%;
+	height: 60px;
+	padding-top: 15px;
+	top: 0;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	font-family: 'abelregular';
+	font-size: 3em;
+	text-transform: uppercase;
+	box-shadow: 1px 1px 20px black;
+
+}
+
+
+
+
+#titre-section img{
+	position: fixed;
+	left: 15px;
+	width: 90px;
+
+
+}
+
+header h2{
+	font-size: 0.6em;
+	margin-top: 3px;
+	color: #174180;
+	font-weight: normal;
+
+
+}
+
+
+
+
+body{
+	background: #d50000; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #d50000 0%, #6b0000 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #d50000 0%,#6b0000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #d50000 0%,#6b0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d50000', endColorstr='#6b0000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	color: black;
+	font-family: 'abelregular';
+
+}
+
+#corps{
+	display: flex;
+
+}
+
+
+#pres{
+	width: 600px;
+	height: 410px;
+	margin-top: 450px;
+	margin-bottom: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	padding: 40px;
+	font-size: 1.1em;
+	box-shadow: 1px 1px 20px black;
+	background-color: #fff;
+	color: black;
+	padding: 20px 40px 20px 40px;
+}
+
+#ligne{
+	width: 20%;
+
+}
+
+#section1 {
+
+	color: black;
+	padding: 0px 40px 40px 40px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom:1px solid #174180;
+
+	
+
+}
+
+
+
+#section2{
+
+	color: black;
+	padding: 0px 40px 40px 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+
+
+
+}
+
+#section3 {
+
+	color: black;
+	padding: 0px 40px 20px 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+
+}
+
+#section2GD {
+
+	color: black;
+	padding: 0px 40px 20px 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	border-bottom:1px solid #174180;
+
+
+}
+
+#sectionILL {
+
+	color: black;
+	padding: 0px 40px 20px 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+
+}
+
+
+
+#sectionV {
+
+	color: black;
+	padding: 0px 40px 50px 40px;
+	width: 70%;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+#travaux h2{
+	color:  #174180;
+	font-size: 1.7em;
+	margin-left: 25px;
+	text-align:left;
+}
+
+#travaux p{
+	font-size: 1.3em;
+}
+
+#travaux a {
+	text-decoration: none;
+	color:  #174180;
+	font-weight: bolder;
+}
+
+#travaux{
+	width: 40%;
+	padding-bottom: 20px;
+	padding-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 350px;
+	margin-bottom: 350px;
+	text-align: justify;
+	background-color: #FFF;
+	box-shadow: 1px 1px 20px black;
+
+}
+
+
+#img-section1,#img-section2,#img-section3,#img-section4,#img-section5,#img-section6{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+
+
+video{
+	width: 600px;
+	height: 350px;
+}
+
+figure img{
+	width: 200px;
+	height: 100px;
+	border-radius: 20px;
+
+}
+
+
+#adresse{
+	position: fixed;
+	left: 20px;
+	top: 110px;
+	background-color: black;
+	box-shadow: 1px 1px 20px black;
+	color: white;
+	font-weight: bold;
+	font-size: 1em;
+	width: 250px;
+	padding: 10px 20px 10px 20px;
+	border-radius: 20px;
+
+}
+
+
+#aproposadresse{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+#adresse:hover{
+	box-shadow: 1px 1px 20px black;
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+
+
+}
+
+
+
+
+#apropostxt{
+	font-size: 1.1em;
+	text-align: justify;
+	padding: 20px 40px 20px 40px;
+	width: 650px;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	margin-bottom: 150px;
+	box-shadow: 1px 1px 20px black;
+	background-color: #FFF;
+}			
+
+
+
+
+#blocApropos{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+#jv{
+	background-color: black;
+	color: white;
+	padding: 40px;
+	box-shadow: 1px 1px 20px black;
+	border-radius: 20px 20px 20px 20px;
+	margin-bottom: 20px;
+
+}
+
+#livre{
+	background-color: #FFF;
+	color: black;
+	padding: 40px;
+	box-shadow: 1px 1px 20px black;
+	border-radius: 20px 20px 20px 20px;
+	margin-bottom: 20px;
+
+}
+
+#cine-serie{
+	background-color: black;
+	color: white;
+	padding: 40px;
+	box-shadow: 1px 1px 20px black;
+	border-radius: 20px 20px 20px 20px;
+	margin-bottom: 20px;
+
+
+}
+
+#musique{
+	background-color: #fff;
+	color: black;
+	padding: 40px;
+	box-shadow: 1px 1px 20px black;
+	border-radius: 20px 20px 20px 20px;
+	margin-bottom: 60px;
+	
+}
+
+
+
+footer{
+	background-color: #fff;
+	color:  #174180;
+	text-align: center;
+	font-size: 0.8em;
+	width: 100%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	position: inherit;
+	bottom: 0;
+
+}
+
+footer a {
+	text-decoration: none;
+	color: #174180;
+	font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+body {
+        padding : 0;
+}
+
+
+
+#pres{
+	width: auto;
+	height: auto;
+	text-align: justify;
+	padding: 30px;
+	font-size: 1.1em;
+	margin-top: 200px;
+	margin-bottom: 200px;
+
+}
+
+#pres p{
+	width: 100%;
+}
+
+
+header{
+	top: 0;
+	left: 0;
+	justify-content: space-between;
+	padding-top: 0;
+}
+
+
+
+header h2{
+	font-size: 0.40em;
+	margin-top: 19px;
+
+}
+
+#titre-section img{
+	position: fixed;
+	left: 15px;
+	top: 13px;
+	width: 70px;
+
+
+}
+
+
+
+
+#section1 {
+
+	width: 85%;
+	padding: 0px 0px 10px 0px;
+	margin-bottom: 0px;
+
+}
+
+#section2{
+
+	width: 85%;
+	padding: 0px 0px 10px 0px;
+	margin-bottom: 0px;
+
+}
+
+#section3 {
+
+	width: 85%;
+	padding: 0px 0px 10px 0px;
+	margin-bottom: 0px;
+
+}
+
+
+#sectionV{
+
+	width: 85%;
+	padding: 0px 0px 10px 0px;
+	margin-bottom: 0px;
+}
+
+#img-section1,#img-section2,#img-section3,#img-section4,#img-section5,#img-section6{
+	display: inherit;
+	text-align: center;
+}
+
+#corps{
+	display: initial;
+
+}
+
+
+
+#travaux{
+	text-align: center;
+	width: 100%;
+	margin-bottom: 200px;
+	margin-top: 200px;
+}
+
+#travaux p{
+	font-size: 1.1em;
+	text-align: justify;
+
+}
+
+
+
+video{
+
+	width:100%;
+	height: auto;
+}
+
+#adresse{
+	position: inherit;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 160px;
+	font-size: 1.1em;
+	padding: 50px;
+	width: 60%;
+}
+
+
+
+#aproposadresse{
+	display: block;
+}
+
+
+#apropostxt{
+	font-size: 1.1em;
+	width: auto;
+	padding: 30px;
+	text-align: justify;
+	margin-top: 100px;
+	margin-bottom: 100px;	
+}
+
+
+#blocApropos{
+	width: 80%;
+	display: inherit;
+	font-size: 1.1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+footer{
+	position: initial;
+}
+
+}
+
+
+
+

@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'abelregular';
+    src: url('fonts/abel-regular-webfont.eot');
+    src: url('fonts/abel-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/abel-regular-webfont.woff2') format('woff2'),
+         url('fonts/abel-regular-webfont.woff') format('woff'),
+         url('fonts/abel-regular-webfont.ttf') format('truetype'),
+         url('fonts/abel-regular-webfont.svg#abelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebasregular';
+    src: url('fonts/BEBAS___-webfont.eot');
+    src: url('fonts/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BEBAS___-webfont.woff2') format('woff2'),
+         url('fonts/BEBAS___-webfont.woff') format('woff'),
+         url('fonts/BEBAS___-webfont.ttf') format('truetype'),
+         url('fonts/BEBAS___-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background-image: url(images/fond_couleur.png);
+
+
+}
+
+header{
+    background-color: black;
+    height: 70px;
+    width: 1877px;
+    display: flex;
+    justify-content: left;
+    padding-left: 10px;
+}
+
+header p{
+    font-family: 'bebasregular';
+    color: white;
+    font-size: 2em;
+    margin-top:10px;
+    padding-left: 10px;
+}
+
+header:hover{
+    background-color: yellow;
+}
+
+header p:hover{
+    color: black;
+}
+
+#corps{
+    display: flex;
+}
+
+#bloc1{
+    height: 1050px;
+    width: 950px;
+    background-color: white;
+    border:1px solid white;
+    text-align: left;
+    font-size: 3em;
+    padding-left: 50px;
+}
+
+#bloc1 p{
+    font-family: 'bebasregular';
+
+}
+
+#bloc1:hover{
+    background-color: blue; 
+    border:1px solid blue;
+    color: white;
+
+}
+
+#bloc2{
+    height: 1000px;
+    width: 800px;
+    background-color: grey;
+    border:1px solid grey;
+    font-family: 'abelregular';
+    text-align: left;
+    padding: 50px 50px 0px 50px;
+    text-align: justify;
+    font-size: 1.5em;
+    color: white;
+
+}
+
+#bloc2 h2{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#bloc2:hover{
+    background-color: magenta; 
+    border:1px solid magenta;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: 'bebasregular';
+    height: 100px;
+    width: 1885px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 3em;
+    border:1px solid black;
+
+}
+
+footer:hover{
+    color: black;
+    background-color: white;
+    border:1px solid white;
+
+}
